@@ -1,0 +1,139 @@
+<!-- You’ll need this tag at the beginning of every HTML document you create. It ensures that a browser knows that it’s reading HTML, and that it expects HTML5, the latest version. -->
+<!DOCTYPE html> 
+
+<!-- This is another tag that tells a browser that it’s reading HTML. The <html> tag goes straight after the DOCTYPE tag, and you close it with a </html> tag right at the end of your file. Everything else in your document goes between these tags. -->
+<html>
+
+<!--Header-->
+<!-- The Header section of the Web page must include a title, it’s mandatory for every HTML document to include a title in the Web page. Enclose you chosen title between the pair of tags -->
+
+	<head>
+
+		<!-- That’s the name that will be displayed as the tab title when it’s opened in a browser. -->
+		<title>Introduction to HTML</title> 
+
+		<!-- Like the title tag, metadata is put in the header area of your page. Metadata is primarily used by search engines, and is information about what’s on your page.  -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	</head>
+
+
+	<!--Body-->
+	<!-- After you close the header section, you get to the body. You open this with the <body> tag, and close it with the </body> tag. That goes right at the end of your file, just before the </html> tag.-->
+	<body>
+
+	<!-- center elemnt causes all material between <center> and </center> tags to be centered horizontally in the browser window -->
+	<center> 
+
+
+<h1>Header elements </h1>
+		<!--Headers are a simple form of text formatting that vary text size based on the header’s level. -->	
+		<!-- The six header elements (H1 through H6) are often used to delineate new sections and subsections of a page-->	
+
+		<h1>Big and Important Header</h1>
+		<h2>Slightly Less Big Header</h2>
+		<h3>Sub-Header 3</h3>
+		<h4>Sub-Header 4</h4>
+		<h5>Sub-Header 5</h5>
+		<h6>Sub-Header 6</h6>
+
+	<br>
+	
+	<!-- The paragraph tag starts a new paragraph.  -->
+	<p>This is a paragraph.</p>
+	<p>This is another paragraph.</p>
+
+
+	<!-- <br> line break, consists of just one tag. This tag is called empty tag.-->
+	<p>the first line.<br> 
+	The second line (close to the first one).</p>
+
+
+	<h2>Text Styling</h2>
+
+		<!-- You can also use CSS styles in your paragraph tags, here we are changing the text size -->
+		<p style="font-size: 120%;">20% larger text</p>
+
+
+		<!-- This tag defines important text. In general, that means it will be bold. However, it’s possible to use CSS to make <strong> text display differently. -->
+		<p>Your text can also be <strong> bold.</strong></p>
+		<strong>Very important things to say.</strong>
+
+		<!-- Like <strong>, <em> and <i> are related. The <em> tag identifies emphasized text, which generally means it will get italicized. Again, there’s the possibility that CSS will make emphasized text display differently. -->
+
+		<em>An emphasized line.</em>
+
+
+		
+	<h2>HTML Links</h2>
+		<p>HTML links are defined with the a tag:</p>
+
+		<!-- The <a>, or anchor, tag lets you create links-->
+		<!-- The “href” attribute identifies the destination of the link. In many cases, this will be another website. It could also be a file, like an image or a PDF.-->
+		<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">This is a link</a>
+
+	
+	<h2>HTML Images</h2>
+
+		<!-- If you want to embed an image in your page, you’ll need to use the image tag. You’ll normally use it in conjunction with the “src” attribute. This specifies the source of the image, like this: -->
+		<img src="img/sunlitbirds.jpg">
+
+
+		<!-- Other attributes are available, such as “height,” “width,” and “alt.”-->
+		<!-- The “alt” tag tells the browser what text to display if the image can’t be displayed and is a good idea to include with any image. If someone has an especially slow connection or an old browser, they can still get an idea of what should be on your page. -->
+		<img src="img/sunlitbirds.jpg" alt="name of image"width = "335" height= "223.5" >
+		
+
+		<!-- The ordered list tag lets you create an ordered list. In general, that means you’ll get a numbered list. Each item in the list needs a list item tag <li> -->
+
+	<h2>An Ordered HTML List</h2>
+
+		<ol>
+		  <li>First thing</li>
+		  <li>Second thing</li>
+		  <li>third thing</li>
+		</ol> <br>
+
+
+		<!-- The unordered list is much simpler than its ordered counterpart. It’s simply a bulleted list. -->
+	<h2>An Unordered HTML List</h2>
+
+		<ul>
+		  <li>Coffee</li>
+		  <li>Tea</li>
+		  <li>Milk</li>
+		</ul>  <br>
+
+		<!--Using tables for formatting is no longer good practice, but there are plenty of times when you’ll want to use rows and columns to segment information on your page. Several tags are needed to get a table to work. -->
+	<h2>Table</h2>
+
+	<table> 					<!-- specify the start and end of the table -->
+		<tbody>					<!-- contains all the table content -->
+			<tr>				<!-- Each row of the table is enclosed in a <tr> tag -->
+			<th>1st column</th>	<!--  Each cell within each row is wrapped in either <th> tags for column headers or <td>-->
+			<th>2nd column</th>
+			</tr>
+			<tr>
+			<td>Row 1, column 1</td>	<!-- tags for column data -->
+			<td>Row 1, column 2</td>
+			</tr>
+			<td>Row 2, column 1</td>
+			<td>Row 2, column 2</td>
+		</tbody>
+	</table> <br>
+
+	<!-- When you’re quoting another website or person and you want to set the quote apart from the rest of your document, use the blockquote tag -->
+	<h2>Using blockquote to quote another person or website</h2>
+	<blockquote>The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.</blockquote> <br><br>
+
+
+	<!-- Creating buttons-->
+	<h2>HTML Buttons</h2>
+		<p>HTML buttons are defined with the button tag:</p>
+
+		<button>Click me</button><br>
+
+	
+ 
+</center>
+	</body>
+</html>
